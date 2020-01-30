@@ -8,9 +8,13 @@ import {
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-
 import './App.css';
 import NavbarBrand from 'react-bootstrap/NavbarBrand';
+
+
+import Footer from './components/Footer';
+
+
 
 class App extends React.Component {
 
@@ -63,6 +67,9 @@ class App extends React.Component {
           </Navbar.Collapse>
 
         </Navbar>
+
+lol
+        {/* <Footer /> */}
 
         </Container>
       </Router>
